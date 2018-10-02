@@ -3,7 +3,7 @@ import time
 from selenium.webdriver.support.ui import Select
 
 driver= webdriver.Firefox()
-driver.get("file:///C:/Users/Bhoomika%20Agarwal/Desktop/Exercise%20Files/CH03/03_02/html_code_03_02.html")
+driver.get("file:///C:/Users/Bhoomika/python-automation/Exercise%20Files/html_code_02.html")
 
 select= Select(driver.find_element_by_name('numReturnSelect'))
 select.select_by_index(4)

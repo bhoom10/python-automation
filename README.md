@@ -10,10 +10,9 @@ A short tutorial to automate web UI testing with Python and Selenium
 ## Contents
 1. What is automated testing?
 2. Python Selenium bindings
-3. Parsing the DOM structure
-4. Locating elements in the HTML DOM
-5. Navigating through pages
-6. Waits
+3. Locating elements in the HTML DOM
+4. Navigating through pages
+5. Waits
 
 ## Exercise 0: Test your setup
 
@@ -58,13 +57,13 @@ Once you have installed python, python-selenium bindings and the web driver, let
  - Find the search bar 
  - Perform a search for *pycon*
 
-## Exercise 6: 
+## Exercise 6: Filling forms
  - Download the file *html_code_02*
  - Use the path of this file in your automation script 
  - Locate the select element by name *numReturnSelect* and select values by index, visible text and value
 - Submit the selection made
 
- ## Exercise 7: Drag and Drop
+## Exercise 7: Drag and Drop
  - Navigate to http://jqueryui.com/droppable
  - Use ActionChains to drag and drop elements by offset or from a source to a target 
  
