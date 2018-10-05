@@ -17,7 +17,7 @@ options = select.options
 print(options)
 
 submit_button = driver.find_element_by_name('continue')
-submit_button.submit();
+submit_button.submit()
 time.sleep(2)
 
 driver.close()
